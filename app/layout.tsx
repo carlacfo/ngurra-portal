@@ -6,10 +6,18 @@ export const metadata: Metadata = {
   description: "TLS Cultural & Business Standards",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
+      <head>
+        {/* You can add extra meta tags here later (favicon, og:image, etc.) */}
+      </head>
       <body>{children}</body>
     </html>
   );
 }
+Update layout.tsx with root layout and metadata
