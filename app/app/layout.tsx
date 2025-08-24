@@ -10,3 +10,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+Delete extra layout.tsx
