@@ -3,8 +3,6 @@
 // app/services/requests/page.tsx
 import { useState } from "react";
 
-export const metadata = { title: "Request Services | Ngurra Portal" };
-
 export default function RequestFormPage() {
   const [sent, setSent] = useState(false);
 
