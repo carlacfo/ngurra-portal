@@ -1,7 +1,7 @@
+// app/layout.tsx
 import "./globals.css";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Ngurra Portal",
   description: "TLS Cultural & Business Standards",
 };
@@ -13,7 +13,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>{/* extra meta can go here */}</head>
       <body>{children}</body>
     </html>
   );
