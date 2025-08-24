@@ -20,4 +20,3 @@ export default function RootLayout({
     </html>
   );
 }
-Update layout.tsx with root layout and metadata
