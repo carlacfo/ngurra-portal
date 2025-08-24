@@ -13,9 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        {/* You can add extra meta tags here later (favicon, og:image, etc.) */}
-      </head>
+      <head>{/* extra meta can go here */}</head>
       <body>{children}</body>
     </html>
   );
