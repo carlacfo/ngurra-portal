@@ -17,8 +17,6 @@ type Provider = {
 const REGIONS = ["All", "NSW", "VIC", "QLD", "WA", "SA", "TAS", "NT", "ACT"];
 const MARKETS = ["All", "Government", "Council", "Private", "Community"];
 
-export const metadata = { title: "TLS Directory | Ngurra Portal" };
-
 export default function DirectoryPage() {
   const [loading, setLoading] = useState(true);
   const [rows, setRows] = useState<Provider[]>([]);
